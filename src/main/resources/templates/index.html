@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" th:href="@{https://fonts.googleapis.com}" />
+    <link rel="preconnect" th:href="@{https://fonts.gstatic.com}" crossorigin />
+    <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap}"    />
+    <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,400;1,700&display=swap}" >
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+    <link rel="stylesheet" th:href="@{/css/fontawesome.min.css}" />
+    <link rel="stylesheet" th:href="@{/css/slick.css}" />
+    <link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css}" >
+    <link rel="stylesheet" th:href="@{/css/slick-theme.css}" />
+    <link rel="stylesheet" th:href="@{/css/leaflet.css}" />
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+
+
+<body>
+    <div class="top-navbar d-lg-block d-none">
+        <div class="container">
+            <a href="mail:abdellah.charko@gmail.com"><i class="fas fa-envelope"></i> abdellah.charki@yahoo.com</a>
+            <a href="tele:+212682334130"><i class="fas fa-phone"></i> 0661334130</a>
+
+ 
+ 
+            <a href="" class="float-right">AR | FR | DE</a>
+
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" /></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <div class="form-inline my-2 my-lg-0 ml-auto">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nouveauté</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cours</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Galerie</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main-slider">
+            <div class="main-slider-item">
+                <img th:src="@{/img/46303967_1085444844963627_8875517064979152896_n.jpg}"  alt="image slider">
+            </div>
+   
+
+        </div>
+ 
+
+  <div class="container">
+    <div class="row  intro-about">
+        
+        <div class="col-7 pt-3">
+            <h1 class="pb-4">Deutsch lerenen in Geothe-Fes</h1>
+            <p>Grâce à son longue expertise, German Training Center vous aide à faire le bon choix basé sur l’étude profonde de votre profil et vous montre comment acquérir des nouvelles opportunités en Allemagne.</p>
+              <p>Prenez le temps nécessaire pour répondre aux questions interactives dans la page « consultation » pour avoir une idée initiale sur ce que vous pouviez faire en Allemagne. Par la suite vous auriez toujours l’occasion de nous contactez directement et nous posez vos questions.</p>
+        </div>
+
+        <div class="col-5 px-0">
+            <!-- <img class="w-100  " src="./img/Approved.svg" alt=""> -->
+            <img class="w-100  " src="./img/lg.jpg" alt="">
+
+        </div>
+
+
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+       <div class="row">
+            <div class="col-12 hot-title">
+                <h1> We help you ! </h1>
+                <p>r ioeteiu tuioer tiuore tuieor toiewru theiw</p>
+            </div>
+            <div class="col-3 fut-card">
+                <a href="#" class="card">
+                    <div class="card-body">
+                        <div class="img">
+                            
+                            <img src="./img/undraw_love_re_mwbq.svg" class="w-100" alt="">
+                        </div>
+                        <p>Regrupment familer</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-3 fut-card">
+                <a  href="#" class="card">
+                    <div class="card-body">
+                        <div class="img"><img src="./img/undraw_working_re_ddwy.svg" class="w-100" alt=""></div>
+                        <p>Travail</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-3 fut-card">
+                <a href="#" class="card">
+                    <div class="card-body">
+                        <div class="img"><img src="./img/undraw_educator_re_ju47.svg" class="w-100" alt=""></div>
+                        <p>Etudent</p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col-3 fut-card">
+                <a href="#" class="card">
+                    <div class="card-body">
+                        <div class="img"><img src="./img/undraw_coffee_break_h3uu.svg" class="w-100" alt=""></div>
+                        <p>Ausbildung</p>
+                    </div>
+                </a>
+            </div>
+       </div>
+    </div>
+  </section>
+
+        <div class="container mt-4 pb-4">
+            <div class="row">
+                <div class="col-12 hot-title">
+                   <h1> Pourquoi nous ? </h1>
+                </div>
+
+                <div class="col-12 hot-title">
+                    <h1> Notre Services  </h1>
+                    <p>choiser votre sirvice qui no foriner</p>
+                 </div>
+
+                 
+                <div class="col-12 col-lg-4  p-1">
+                    <div class="card f-card ">
+                      <div class="card-body">
+                        <div class="">
+                          <img class="w-100" src="./img/Student Discussing in library.svg" alt="">
+                        </div>
+                        <h4 class="card-title">Traductions</h4>
+ 
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-4  p-1">
+                    <div class="card f-card ">
+                      <div class="card-body">
+                        <div class="">
+                          <img class="w-100" src="./img/About Us.svg" alt="">
+                        </div>
+                        <h4 class="card-title">Cour accelere </h4>
+ 
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-4  p-1">
+                    <div class="card  f-card ">
+                      <div class="card-body">
+                        <div class="">
+                          <img class="w-100" src="./img/Audiobook.svg" alt="">
+                        </div>
+                        <h4 class="card-title">Rocomondations</h4>
+ 
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-lg-4  p-1">
+                    <div class="card f-card ">
+                      <div class="card-body">
+                        <div class="">
+                          <img class="w-100" src="./img/Consulting.svg" alt="">
+                        </div>
+                        <h4 class="card-title">Dirictions</h4>
+ 
+                      </div>
+                    </div>
+                </div>
+
+
+                
+
+                <div class="col-12 col-lg-4  p-1">
+                    <div class="card f-card ">
+                      <div class="card-body">
+                        <div class="">
+                          <img class="w-100" src="./img/Certification.svg" alt="">
+                        </div>
+                        <h4 class="card-title">Title</h4>
+                       </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-4  p-1">
+                    <div class="card f-card ">
+                      <div class="card-body">
+                        <div class="">
+                          <img class="w-100" src="./img/Completed steps.svg" alt="">
+                        </div>
+                        <h4 class="card-title">Title</h4>
+ 
+                      </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+
+        <section class="sect"  >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 hot-title">
+                        <h1>Cours</h1>
+                        <p>Vous avez besoin d'un cours d'allemand ?</p>
+                        <p>Vous avez besoin d'un cours d'allemand ?</p>
+                    </div>
+                </div>
+                <div class="row dedede">
+                    
+                    <div class=" col-12   col-md-6 col-lg-4 mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/d (1).jpg" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12   col-md-6 col-lg-4 mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/d (1).jpg" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>             <div class=" col-12   col-md-6 col-lg-4 mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/d (1).jpg" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>             <div class=" col-12   col-md-6 col-lg-4 mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/d (1).jpg" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>             <div class=" col-12   col-md-6 col-lg-4 mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/d (1).jpg" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>             <div class=" col-12   col-md-6 col-lg-4 mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/d (1).jpg" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-6 col-lg-4  mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/bg (2).jpg" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class=" col-12 col-md-6 col-lg-4 mt-2">
+                        <div class="card formation-card">
+                            <img class="card-img-top" src="./img/d (1).png" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kurs B2 Intensiv</h4>
+                                <p class="card-text">5 Sision per Semain (2h/s)</p>
+                                <button type="button" class="">
+                                    inscrire <i class="fas ml-1 fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="row ">
+                    <div class="col-12 text-center">
+                        <a href="">voir tout les cours .</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="contact-sect" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 hot-title">
+                        <h1>Contacter Nous</h1>
+                    </div>
+           
+                    <div class="col-12">
+                        <div class="row">
+                        
+                            <div class="col-12 pt-4"> 
+                                <p class="info-line"> <i class="fas fa-location-arrow    "></i> Angle boulevard Abdelmoumen et boulevard Anoual, Abdelmoumen Center, 5 ème étage - Bureau 509</p>
+                                <p  class="info-line"> <i class="fas fa-envelope    "></i> abdellah.charki@gmail.com</p>
+                                <p  class="info-line"><i class="fas fa-phone    "></i> 0682334130</p> 
+                            </div>
+                            <div class="col-12">
+                                <div id="map"></div>
+                                <a href="">Envoyes nous un message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 hot-title">
+                        <h1>Galary</h1>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="fotorama bg-black"  >
+                            
+                        <img src="./img/galary (1).jpg"  style="max-height: 600px"  alt="">
+                        <img src="./img/galary (2).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (3).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (4).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (5).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (6).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (7).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (1).jpg"  style="max-height: 600px"  alt="">
+                        <img src="./img/galary (2).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (3).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (4).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (5).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (6).jpg" style="max-height: 600px"  alt="">
+                        <img src="./img/galary (7).jpg" style="max-height: 600px"  alt="">
+                    
+                        </div>
+                    </div>
+                
+ 
+    
+                </div>
+            </div>
+        </section>
+
+
+        
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p><a href=""><i class="fas fa-envelope    "></i> abdellah.charki@yahoo.com</a> </p>
+                    <p><a href=""><i class="fas fa-phone    "></i> 0682334130</a></p>
+                    <p><a href=""><i class="fas fa-location-arrow    "></i> 0682334130</a></p>
+                    <p><a href=""><i class="fab fa-instagram    "></i> Instagram</a></p>
+                    <p><a href=""><i class="fab fa-facebook    "></i> facebook</a></p>
+                </div>
+
+                <div class="col-6">
+                    <h3>A Propos</h3>
+                    ECOLE POLYTECHNIQUE DES GÉNIES :
+                    Nous sommes une société, entreprise et agence de services informatiques. le leader à Fès. En plus,
+                    Ecole polytechnique de génie offre des cours de soutiens, des certifications qui couvrent
+                </div>
+
+
+                <div class="col-12 text-center">
+                    <p>© Copyright 2022 - sprache institut geothe Fes S.A.R.L - Tous droits réservés</p>
+                    <p>make it with abdellah charki</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script th:src="@{/js/jquery.js}"></script>
+    <script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+    <script th:src="@{/js/slick.min.js}"></script>
+    <script th:src="@{/js/leaflet.js}"></script>
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js}"></script>
+    <script th:src="@{/js/main.js}"></script>
+</body>
+
+</html>
